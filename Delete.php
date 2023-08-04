@@ -1,6 +1,6 @@
 <?php
-if(isset($_REQUEST['filename'])) {
-    $filename = $_REQUEST['filename'] . '.json';
+if(isset($_REQUEST['namefile1234'])) {
+    $filename = $_REQUEST['namefile1234'] . '.json';
 
     if(file_exists($filename)) { 
         if(unlink($filename)) { 
